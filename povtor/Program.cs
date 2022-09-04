@@ -10,14 +10,14 @@ using System.Windows.Forms;
 namespace povtor
 {
     /// <summary>
-    /// 
+    /// Эта программа позволяет общитывать погрешность 
     /// </summary>
     internal class Program
     {
         [STAThreadAttribute]
         static void Main(string[] args)
         {
-            Dialogwin class1 = new Dialogwin();
+            Dialogwin class1 = new Dialogwin(); // основная програма 
             class1.DialogWindows();
 
               

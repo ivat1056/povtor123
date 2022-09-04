@@ -32,7 +32,7 @@ namespace povtor
                 string[,] a = new string[text.Length, text[text.Length - 1].Length];
                 int j = 0;
                 int k;
-                string a1 = "pn10";
+                string a1 = "pn10"; // основные типы металлов 
                 string a2 = "pn16";
                 string a3 = "pn20";
                 string a4 = "pn25";
@@ -53,7 +53,7 @@ namespace povtor
                             win2 f2 = new win2();
                             double f = f2.testWin(b1, b2);
                             f2.testWin2(b1, b2);
-                            if (((f>=10) && (f<=11)))
+                            if (((f>=10) && (f<=11))) // подсчет погрешности 
                             {
                                 Console.WriteLine("Соответствует");
                                 

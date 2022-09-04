@@ -7,7 +7,7 @@ namespace UnitTestProject1
     [TestClass]
     public class UnitTest1
     {
-        [TestMethod]
+        [TestMethod] // юнит тестирование 
         public void TestMethod1()
         {
             double a = 20;
