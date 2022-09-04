@@ -14,7 +14,7 @@ namespace povtor
             double b = ((b1 * 100) / b2);
             return b;
         }
-        public void testWin2(double b1, double b2)
+        public void testWin2(double b1, double b2)//
         {
             Trace.Listeners.Add(new TextWriterTraceListener("Debug123.txt"));// дебаг
             Debug.Indent();
