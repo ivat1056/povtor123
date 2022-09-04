@@ -16,9 +16,9 @@ namespace povtor
         }
         public void testWin2(double b1, double b2)
         {
-            Trace.Listeners.Add(new TextWriterTraceListener("Debug123.txt"));
+            Trace.Listeners.Add(new TextWriterTraceListener("Debug123.txt"));//
             Debug.Indent();
-            Trace.Indent();
+            Trace.Indent();//
             Debug.WriteLine("Debugged " + b1);// трейс и дебаг 
             Trace.WriteLine("Traced " + b2);///
             Debug.WriteLine("");
