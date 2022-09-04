@@ -19,7 +19,7 @@ namespace povtor
             Trace.Listeners.Add(new TextWriterTraceListener("Debug123.txt"));
             Debug.Indent();
             Trace.Indent();
-            Debug.WriteLine("Debugged " + b1);
+            Debug.WriteLine("Debugged " + b1);// трейс и дебаг 
             Trace.WriteLine("Traced " + b2);
             Debug.WriteLine("");
             Trace.Flush();
