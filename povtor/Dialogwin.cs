@@ -37,7 +37,7 @@ namespace povtor
                     {
 
                         a[j, k] = s;
-                        Console.WriteLine(a[j, k]);
+                        Console.WriteLine(a[j, k]);/// комментарий 343
                         k++;
                     }
                     j++;
