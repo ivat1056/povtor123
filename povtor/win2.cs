@@ -20,7 +20,7 @@ namespace povtor
             Debug.Indent();
             Trace.Indent();
             Debug.WriteLine("Debugged " + b1);// трейс и дебаг 
-            Trace.WriteLine("Traced " + b2);
+            Trace.WriteLine("Traced " + b2);///
             Debug.WriteLine("");
             Trace.Flush();
         }
