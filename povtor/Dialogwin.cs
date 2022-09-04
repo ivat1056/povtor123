@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace povtor
 {
@@ -15,6 +16,7 @@ namespace povtor
        
         public void DialogWindows()
         {
+            
 
             var ofd = new OpenFileDialog();
             ofd.Filter = "(text files)|*.csv";
@@ -50,9 +52,11 @@ namespace povtor
                             Console.WriteLine(a[j, 0]);
                             win2 f2 = new win2();
                             double f = f2.testWin(b1, b2);
+                            f2.testWin2(b1, b2);
                             if (((f>=10) && (f<=11)))
                             {
                                 Console.WriteLine("Соответствует");
+                                
                             }
                             else
                             {

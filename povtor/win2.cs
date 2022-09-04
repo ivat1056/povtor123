@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace povtor
 {
@@ -13,6 +14,15 @@ namespace povtor
             double b = ((b1 * 100) / b2);
             return b;
         }
-        
+        public void testWin2(double b1, double b2)
+        {
+            Trace.Listeners.Add(new TextWriterTraceListener("Debug123.txt"));
+            Debug.Indent();
+            Trace.Indent();
+            Debug.WriteLine("Debugged " + b1);
+            Trace.WriteLine("Traced " + b2);
+            Debug.WriteLine("");
+            Trace.Flush();
+        }
     }
 }
