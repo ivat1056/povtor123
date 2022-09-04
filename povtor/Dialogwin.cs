@@ -30,6 +30,10 @@ namespace povtor
                 string[,] a = new string[text.Length, text[text.Length - 1].Length];
                 int j = 0;
                 int k;
+                string a1 = "pn10";
+                string a2 = "pn16";
+                string a3 = "pn20";
+                string a4 = "pn25";
                 foreach (string[] line in text)
                 {
                     k = 0;
@@ -37,12 +41,32 @@ namespace povtor
                     {
 
                         a[j, k] = s;
-                        Console.WriteLine(a[j, k]);/// комментарий 343
+                        Console.WriteLine(a[j, k]);/// вывод цикла
+                        if ((a[j, 2] == a1))
+                        {
+                            double b1 = Convert.ToDouble(a[j, 1]);
+                            Console.WriteLine(a[j, 1]);
+                            double b2 = Convert.ToDouble(a[j, 0]);
+                            Console.WriteLine(a[j, 0]);
+                            win2 f2 = new win2();
+                            double f = f2.testWin(b1, b2);
+                            if (((f>=10) && (f<=11)))
+                            {
+                                Console.WriteLine("Соответствует");
+                            }
+                            else
+                            {
+                                Console.WriteLine("не Соответствует--");
+                                Console.Write(a[j, 2]);
+                            }
+                        }
                         k++;
                     }
                     j++;
                 }
-
+                
+                
+                
 
             }
         }

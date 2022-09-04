@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace povtor
 {
-    internal class win2
+    public class win2
     {
-
-        // commrnt
-
-        //// 9888989
+        public double testWin(double b1, double b2)
+        {
+            double b = ((b1 * 100) / b2);
+            return b;
+        }
+        
     }
 }

@@ -9,6 +9,9 @@ using System.Windows.Forms;
 
 namespace povtor
 {
+    /// <summary>
+    /// 
+    /// </summary>
     internal class Program
     {
         [STAThreadAttribute]
@@ -16,7 +19,8 @@ namespace povtor
         {
             Dialogwin class1 = new Dialogwin();
             class1.DialogWindows();
-                
+
+              
  
         }
     }
