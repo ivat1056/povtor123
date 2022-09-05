@@ -43,7 +43,7 @@ namespace povtor
                     {
 
                         a[j, k] = s;
-                        Console.WriteLine(a[j, k]);/// вывод цикла
+                        Console.WriteLine(a[j, k]);// вывод цикла
                         if ((a[j, 2] == a1))
                         {
                             double b1 = Convert.ToDouble(a[j, 1]);
